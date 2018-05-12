@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.kenzo.rc
 
+#VNDK
+PRODUCT_PACKAGES += \
+    vndk-sp
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
